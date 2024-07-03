@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Public Sans', sans-serif;
+}
+
+.container {
+  border-radius: 12px;
+  box-shadow: 0 0 2px 0 rgba(23, 26, 31, 0.2), 0 2px 5px 0 rgba(23, 26, 31, 0.17);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 33px 32px 20px;
+  max-width: 519px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding: 33px 20px 20px;
+  }
+}
+
+.heading {
+  color: #171a1f;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  font-family: 'Sora', sans-serif;
+}
+
+.subheading {
+  color: #9095a0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-family: 'Sora', sans-serif;
+}
+
+.input-wrapper {
+  border-radius: 12px;
+  background-color: #f3f4f6;
+  display: flex;
+  gap: 4px;
+  font-size: 16px;
+  color: #bcc1ca;
+  font-weight: 400;
+  line-height: 162.5%;
+  padding: 12px 16px;
+}
+
+.icon {
+  width: 20px;
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+}
+
+.input-placeholder, .password-placeholder {
+  flex-grow: 1;
+  margin: auto 0;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.id-input,
+.password-input {
+  margin-top: 20px;
+}
+
+.password-wrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.password-input {
+  justify-content: space-between;
+}
+
+.password-toggle-icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.login-button {
+  background-color: #6e75d1;
+  color: #fff;
+  border-radius: 12px;
+  font-family: 'Public Sans', sans-serif;
+  padding: 15px 60px;
+  margin-top: 25px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.terms-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: auto;
+  padding: 20px 0;
+}
+
+.terms-link, .signup-link {
+  color: #6e75d1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signup-text {
+  color: #171a1f;
+  font-weight: 400;
+  margin: 0;
+  padding-right: 10px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.forgot-password {
+  color: #6e75d1;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  display: block;
+  text-align: left;
+}

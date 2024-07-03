@@ -1,0 +1,151 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f8fa;
+}
+
+.profile-edit-container {
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px rgba(18, 15, 40, 0.12);
+    border-radius: 8px;
+    width: 1000px;
+    margin: 20px; /* Add margin to create space on top and bottom */
+    overflow: hidden;
+}
+
+.profile-edit-content {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 250px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-right: 1px solid #e0e0e0;
+}
+
+.back-button {
+    text-decoration: none;
+    color: #323842;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    display: block;
+    text-decoration: none;
+    color: #323842;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.sidebar a.active {
+    background-color: #eef1fc;
+    color: #6e75d1;
+    font-weight: bold;
+}
+
+.pricing-settings {
+    flex: 1;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-settings h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.pricing-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-group p {
+    margin: 5px 0;
+}
+
+.rate-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rate-input input {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.currency-symbol {
+    font-size: 18px;
+}
+
+.note {
+    font-size: 14px;
+    color: #6e75d1;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox-group input {
+    margin-right: 10px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.save-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #6e75d1;
+    color: white;
+    cursor: pointer;
+}
+
+.save-button:hover {
+    background-color: #5a63b6;
+}

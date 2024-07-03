@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f8fa;
+}
+
+.profile-edit-container {
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px rgba(18, 15, 40, 0.12);
+    border-radius: 8px;
+    width: 1000px;
+    margin: 20px; /* Add margin to create space on top and bottom */
+    overflow: hidden;
+}
+
+.profile-edit-content {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.sidebar {
+    width: 250px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-right: 1px solid #e0e0e0;
+}
+
+.back-button {
+    text-decoration: none;
+    color: #323842;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    display: block;
+    text-decoration: none;
+    color: #323842;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.sidebar a.active {
+    background-color: #eef1fc;
+    color: #6e75d1;
+    font-weight: bold;
+}
+
+.account-settings {
+    flex: 1;
+    padding: 40px;
+}
+
+.account-settings h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.profile-image-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-image-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.change-button,
+.remove-button {
+    background: none;
+    border: none;
+    color: #6e75d1;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.change-button:hover,
+.remove-button:hover {
+    text-decoration: underline;
+}
+
+.account-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.save-button,
+.delete-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.save-button {
+    background-color: #6e75d1;
+    color: white;
+}
+
+.save-button:hover {
+    background-color: #5a63b6;
+}
+
+.delete-button {
+    background-color: #f5c6cb;
+    color: #721c24;
+}
+
+.delete-button:hover {
+    background-color: #f1b0b7;
+}
